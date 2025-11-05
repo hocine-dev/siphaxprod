@@ -7,39 +7,9 @@ export default function ArtistesPage() {
   const artists = [
     {
       name: "Yasmina",
-  image: "/yassmina.jpg",
+      image: "/yassmina.jpg",
       genre: "Musique Traditionnelle",
       bio: "Yasmina est une chanteuse algérienne reconnue pour sa maîtrise du répertoire traditionnel et sa voix expressive qui célèbre la culture berbère.",
-    },
-    {
-      name: "Mohamed Allawa",
-  image: "/mohammed allawa.jpg",
-      genre: "Kabyle (moderne, folk)",
-      bio: "Mohamed Allawa est un artiste kabyle moderne, connu pour ses chansons engagées et son style mêlant folk et influences contemporaines.",
-    },
-    {
-      name: "Djilali Hamama",
-  image: "/djilali hamama.jpg",
-      genre: "Chaâbi (populaire algérien)",
-      bio: "Djilali Hamama est une figure du chaâbi algérien, apprécié pour ses interprétations authentiques et sa contribution à la musique populaire.",
-    },
-    {
-      name: "Rabeh Assma",
-  image: "/rabeh assma.jpg",
-      genre: "Kabyle (folk, pop)",
-      bio: "Rabeh Assma est un chanteur kabyle influent, célèbre pour ses mélodies folk et pop qui touchent plusieurs générations.",
-    },
-    {
-      name: "Kedym",
-  image: "/kedym.jpg",
-      genre: "Pop Moderne (fusion algérienne)",
-      bio: "Kedym est un artiste de la scène pop algérienne, reconnu pour ses créations fusionnant modernité et racines locales.",
-    },
-    {
-      name: "Ali Amran",
-  image: "/ali amran.jpeg",
-      genre: "Kabyle (folk, acoustique, moderne)",
-      bio: "Ali Amran est un auteur-compositeur kabyle, apprécié pour ses chansons acoustiques et son engagement pour la culture amazighe.",
     },
   ]
 

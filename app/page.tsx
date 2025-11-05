@@ -17,31 +17,6 @@ export default function HomePage() {
       image: "/yassmina.jpg",
       genre: "Musique Traditionnelle",
     },
-    {
-      name: "Mohamed Allawa",
-      image: "/mohammed allawa.jpg",
-      genre: "Kabyle (moderne, folk)",
-    },
-    {
-      name: "Djilali Hamama",
-      image: "/djilali hamama.jpg",
-      genre: "Chaâbi (populaire algérien)",
-    },
-    {
-      name: "Rabeh Assma",
-      image: "/rabeh assma.jpg",
-      genre: "Kabyle (folk, pop)",
-    },
-    {
-      name: "Kedym",
-      image: "/kedym.jpg",
-      genre: "Pop Moderne (fusion algérienne)",
-    },
-    {
-      name: "Ali Amran",
-      image: "/ali amran.jpeg",
-      genre: "Kabyle (folk, acoustique, moderne)",
-    },
   ]
 
   const concerts = [
@@ -49,36 +24,6 @@ export default function HomePage() {
       artist: "Yasmina",
       date: "21 Décembre 2025",
       venue: "Paris - Alhambra",
-      available: true,
-    },
-    {
-      artist: "Mohamed Allawa",
-      date: "12 Janvier 2026",
-      venue: "Alger - Salle Atlas",
-      available: true,
-    },
-    {
-      artist: "Djilali Hamama",
-      date: "20 Janvier 2026",
-      venue: "Oran - Théâtre",
-      available: true,
-    },
-    {
-      artist: "Rabeh Assma",
-      date: "28 Janvier 2026",
-      venue: "Tizi Ouzou - Maison de la Culture",
-      available: true,
-    },
-    {
-      artist: "Kedym",
-      date: "5 Février 2026",
-      venue: "Constantine - Zénith",
-      available: true,
-    },
-    {
-      artist: "Ali Amran",
-      date: "15 Février 2026",
-      venue: "Béjaïa - Salle des Fêtes",
       available: true,
     },
   ]
@@ -123,26 +68,55 @@ export default function HomePage() {
                 Siphax Productions
                 <span className="block h-1 w-24 mx-auto mt-2 bg-black rounded-full animate-grow" />
               </h2>
-            <p className="text-xl md:text-2xl text-black/80 leading-relaxed mb-10 animate-fade-in">
-              Société de production de spectacles rattachée à des artistes majeurs ou en développement du paysage musical algérien,<br className="hidden md:inline" />
+            <p className="text-xl md:text-2xl text-black/80 leading-relaxed mb-6 animate-fade-in">
+              Société de production de spectacles rattachée à des artistes majeurs ou en développement du paysage musical traditionnel algérien et berbères.<br className="hidden md:inline" />
               Siphax Productions a pour vocation de produire toutes les musiques pour tous les publics.
+            </p>
+            <p className="text-lg md:text-xl text-black font-semibold mb-8 animate-fade-in">
+              Rejoignez-nous Facebook Instagram Youtube
             </p>
             <div className="flex flex-col items-center gap-8">
               <Button size="xl" className="bg-black text-white border border-black shadow-lg transition-all duration-300 animate-bounce" style={{ padding: '1%' }}>
                 Rejoignez-nous
               </Button>
               <div className="flex gap-6">
-                <Link href="https://facebook.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md transform transition-transform duration-300 hover:scale-110">
+                <Link href="https://facebook.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md duration-300 hover:scale-110">
                   <Facebook className="w-6 h-6" />
                 </Link>
-                <Link href="https://instagram.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md transform transition-transform duration-300 hover:scale-110">
+                <Link href="https://instagram.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md duration-300 hover:scale-110">
                   <Instagram className="w-6 h-6" />
                 </Link>
-                <Link href="https://youtube.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md transform transition-transform duration-300 hover:scale-110">
+                <Link href="https://youtube.com" target="_blank" className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-black hover:text-white transition-colors shadow-md duration-300 hover:scale-110">
                   <Youtube className="w-6 h-6" />
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Section */}
+      <section className="py-20 w-full bg-gradient-to-br from-black via-white to-black relative overflow-hidden">
+        <div className="container mx-auto px-4 lg:px-8 w-full flex justify-center">
+          <div className="max-w-3xl w-full text-center backdrop-blur-md bg-white/80 rounded-2xl shadow-xl border border-black/10 p-10 animate-fade-in">
+            <h2 className="font-sans text-4xl md:text-6xl font-extrabold mb-6 text-black tracking-tight animate-slide-down">Profil INSTAGRAM</h2>
+            <Link href="https://www.instagram.com/siphaxprod" target="_blank" className="inline-block mb-6 text-lg font-bold text-black underline hover:text-neutral-600 transition-colors">
+              https://www.instagram.com/siphaxprod
+            </Link>
+            <div className="mb-8 flex justify-center">
+              <iframe
+                src="https://www.instagram.com/siphaxprod/embed"
+                width="400"
+                height="480"
+                allowtransparency="true"
+                frameBorder="0"
+                scrolling="no"
+                allow="encrypted-media"
+                className="rounded-2xl border border-black/10 shadow-xl"
+                title="Instagram Feed"
+              ></iframe>
+            </div>
+            <p className="text-lg md:text-xl text-black font-semibold animate-fade-in">Suivez-nous sur Instagram</p>
           </div>
         </div>
       </section>
